@@ -1,0 +1,138 @@
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  baxkground:#e4edf6;
+  margin:0px;
+  text-decoration:none; cursor:inherit;
+
+}
+
+
+.driving-container{
+max-width:850px;
+min-width: 268px;
+padding:10px 30px;
+margin:auto;
+}
+
+.driving-section{
+background:#f1f3f2;
+width:100%;
+height:auto;
+padding:20px 10px 40px 10px;
+box-shadow: 0px 0px 3px 3px #cccccc;
+margin-bottom:50px;
+}
+
+.driving-heading{
+font-family:Arial;
+font-size:34px;
+color:#333;
+padding:15px;
+text-align:center;
+text-rendering: optimizeLegibility;
+}
+
+.border-right{
+border-right:1px solid #999999;
+}
+
+.from-text{
+padding:15px 10px 5px 0;
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+
+}
+
+.to-text{
+padding:15px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+
+}
+
+.border-btm{
+border-bottom:1px solid #333333;
+height:50px;
+width:96%;
+}
+
+.get-btn{
+margin:10px 0;
+margin-bottom:25px;
+
+}
+
+
+
+
+.miles-text{
+padding:15px 0;
+margin-bottom:-20px;
+}
+
+.new-text input{
+border-left:none;
+border-top:none;
+border-right:none;
+padding:1px 12px;
+border-bottom:1px solid #666666;
+height:25px;
+background:#f1f3f2;
+border-radius:none;
+width:100%;
+
+}
+
+.mil-text{
+padding:15px 15px 0px 0;
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+text-align:center;
+
+}
+
+.mil2-text{
+padding:15px 5px 0px 15px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+text-align:center;
+}
+
+.dropdown-menu-right{
+top:5px;
+right:-155px;
+
+}
+
+#map-canvas{
+        width:100%;
+		margin-top:5px;
+        padding-bottom: 150%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+ 
+
+
+@media (max-width:991px) {
+
+.border-right{
+border-right:none;
+border-bottom:1px solid #999999;
+padding:20px;
+}
+
+.dropdown-menu-right{
+top:40px;
+right:1px;
+
+}
+
+}
+
+
+
