@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+ body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+  margin:0px;
+  text-decoration:none; cursor:inherit;
+   background:#e4edf6;
+
+}
+
+
+/* select pereference start here */
+
+
+.prefer-container{
+max-width:700px;
+min-width: 268px;
+height:auto;
+padding:10px 30px;
+margin:auto;
+
+}
+
+
+
+.prefer-section{
+background:#f1f3f2;
+width:100%;
+height:auto;
+margin:auto;
+margin-bottom:50px;
+padding:30px 30px 35px 30px;
+
+box-shadow: 0px 0px 3px 3px #cccccc;
+
+}
+.pre-heading{
+font-family:Arial;
+font-size:29px;
+color:#333;
+padding:20px 0;
+width:100%;
+text-align:center;
+}
+
+.pre-heading2{
+
+color:#444;
+
+}
+
+.accept-text{
+padding:15px 0;
+font-size:16px;
+font-weight:bold;
+}
+
+
+
+.e-text{
+font-size:14px;
+padding:1px;
+margin:2px 0 2px 0;
+}
+
+.e-text-cont {
+font-size:14px;
+padding:1px;
+margin:2px 0 4px 0;
+}
+.e-check{
+margin-top:-6px;
+padding:1px;
+margin-bottom:2px;
+}
+
+/* select pereference ends here */
+
+
+/* opt section start here */
+
+.opt-section{
+width:100%;
+
+}
+
+.opt-text{
+padding-top:10px;
+}
+
+.manage{
+padding:4px 7px;
+margin:5px 0;
+}
+
+.save-cancel {
+    float: left;
+    margin: 10px 15px 15px 0;
+}
+
+/*  opt section end here */
+
+
+@media (max-width: 991px){
+.e-text{
+
+margin:2px 0 7px 0;
+}
+
+.e-text-cont {
+
+margin:2px 0 7px 0;
+}
+}

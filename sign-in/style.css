@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+  margin:0px;
+  text-decoration:none; cursor:inherit;
+   background:#e4edf6;
+
+}
+.main_container{
+max-width:700px;
+min-width: 268px;
+height:auto;
+padding:10px 30px;
+margin:auto;
+}
+
+
+.container2{
+background:#f1f3f2;
+width:100%;
+height:auto;
+margin:auto;
+margin-top:60px;
+padding:0px 10px 35px;
+
+box-shadow: 0px 0px 3px 3px #cccccc;
+
+}
+
+.heading{
+font-family:Arial;
+font-size:34px;
+color:#1675b7;
+
+padding:15px;
+width:100%;
+text-align:center;
+}
+.img{
+margin-top:-90px;
+height:auto;
+
+}
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+	
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 0px;
+    padding: 20px 0px 20px 0px;
+    background-color: #f7f7f7;
+   box-shadow: 0px 0px 3px 3px #cccccc;
+
+	border-radius:4px;
+}
+.login-title
+{
+	color: #555;
+	font-size: 34px;
+	padding:35px 0;
+	font-weight: 400;
+	display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0px auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 20px;
+}
+.password{
+margin-top:15px;
+}
+.email{
+float:left;
+}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+margin:0px;
+text-decoration:none;
+background:#e4edf6;
+}
+
+.button-container{
+max-width:600px;
+min-width:268px;
+margin:auto;
+padding:70px 0;
+
+height:auto;
+background:#f1f3f2;
+box-shadow: 0px 0px 3px 3px #cccccc;
+}
+
+.home-text{
+color:#333;
+font-size:24px;
+text-align:center;
+margin:60px;
+}
+
+.col-md-4{
+text-align:center;
+}
+
+.button{
+
+margin-top:10px;
+}
+
+
+@media (max-width: 991px) and (min-width: 650px)
+
+{
+.button{
+width:40%;
+}
+}
+
+@media (max-width: 649px) and (min-width: 570px){
+.button{
+width:45%;
+}
+}
+
+
+@media (max-width: 569px) {
+.button{
+width:60%;
+}
+}
+
+
