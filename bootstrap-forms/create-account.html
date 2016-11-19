@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Create Account</title>
+</head>
+<link href="//db.onlinewebfonts.com/c/d1e7459984b795346649092483380c71?family=Lavanderia" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap-theme.css" rel="stylesheet">
+         <link href="css/bootstrap-theme.min.css"rel="stylesheet">
+        <link href="style.css"rel="stylesheet">
+        <script src="js/bootstrap.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+            <script src="js/npm.js"></script>
+       
+
+<body>
+<div class="container">
+<div class="row">
+<div class="main_container">
+<h2 class="heading">Create Account</h2>
+
+<div class="col-md-12 create-account">
+<div class="col-md-12">
+ <form onsubmit="return checkform(this);">
+ 
+  <div class="form-group">
+    
+    <input type="email" class="form-control" placeholder="Email" id="email" />
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Receive Email Reminder</label>
+  </div>
+  <div class="form-group">
+   
+    <input type="password" class="form-control" placeholder="Create Password" id="pwd" />
+  </div>
+  <div class="form-group">
+  <input type="text" class="form-control" placeholder="Confirm Password" id="confirm-pwd" />
+  </div>
+  <div class="form-group">
+   <div id="txtCaptchaDiv" class="captcha" ></div>
+  <input type="hidden" id="txtCaptcha" />
+  </div>
+  <div class="form-group">
+<input type="text" name="txtInput" id="txtInput"  placeholder="Enter Code Here" />
+  </div>
+  <button type="submit" class="btn btn-primary">Create Account</button>
+</form>
+
+</div>
+<div class="create-text">By creating account you agree to ...</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+<script src="js/captcha.js"></script>
+ 
+
+</body>
+</html>
